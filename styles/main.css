@@ -5,10 +5,23 @@ main {
     padding-block: 24px;
 }
 
-main img{
-
+main img {
+    overflow: hidden;
     width: 286px;
     height: 286px;
     object-fit: cover;
-
+    transition: transform 0.3s ease-in-out; /* Adiciona transição para suavidade */
 }
+
+main img:hover {
+    transform: scale(1.1); /* Aplica o zoom no hover */
+}
+
+
+
+
+
+  
+
+  
+
